@@ -1,7 +1,7 @@
 📌 Projeto RH_DIAC
 
 Este projeto é uma abstração de uma seção de recursos humanos em um site de uma empresa. É um sistema em C com GTK, acoplado com um Banco de Dados SQL para o gerenciamento e cadastro de candidatos a vagas na empresa.
-Ele foi desenvolvido com fins de aprendizado e de prática de programação estruturada com interface gráfica aliada a um sistema de gerenciamento de banco de dados. <br> <br> <br>
+Ele foi desenvolvido com fins de aprendizado e de prática de programação estruturada com interface gráfica aliada a um sistema de gerenciamento de banco de dados.  <br> <br> <br>
 
 🚀 Tecnologias utilizadas
 
