@@ -1,7 +1,7 @@
 📌 Projeto RH_DIAC
 
-Este projeto é um sistema em C com GTK que implementa uma interface gráfica para gerenciamento e cadastro.
-Ele foi desenvolvido para fins de aprendizado e prática de programação estruturada com interface gráfica.
+Este projeto é um sistema em C com GTK e acoplado com um Banco de Dados SQL para gerenciamento e cadastro.
+Ele foi desenvolvido com fins de aprendizado e de prática de programação estruturada com interface gráfica aliada a um sistema de gerenciamento de banco de dados.
 
 🚀 Tecnologias utilizadas
 
@@ -9,19 +9,31 @@ C (linguagem principal)
 
 GTK+ 3 (interface gráfica)
 
+CSS (auxílio a interface gráfica)
+
+SQL (persistência de dados)
+
 Makefile (automatização da compilação)
+
 
 📂 Estrutura do projeto
 gtk_workspace/
 ├── main.c               # Ponto de entrada do programa
+
 ├── interface.c / .h     # Implementa a interface gráfica (GTK)
+
 ├── database.c / .h      # Manipulação de dados simulando banco
+
 ├── validacao.c / .h     # Funções de validação
+
 ├── estilo.css           # Estilos visuais da interface GTK
+
 ├── Makefile             # Script de build
+
 └── README.md            # Este arquivo
 
 ⚙️ Compilação e execução
+
 🔹 Linux (Debian/Ubuntu)
 
 Instale as dependências:
@@ -56,7 +68,6 @@ make
 
 O sistema utiliza GTK+ 3 para construir a interface gráfica.
 Os estilos estão definidos no arquivo estilo.css.
-(👉 você pode colocar prints da interface aqui depois)
 
 📖 Makefile
 
@@ -70,11 +81,5 @@ make clean → remove o executável gerado
 
 👨‍💻 Autor
 
-Seu Nome
-GitHub
- | LinkedIn
+Daniel Filipe Borges de Oliveira
 
-👉 Esse README já está no padrão GitHub profissional.
-Se quiser, posso melhorar ele adicionando badges automáticas (linguagem, versão do GTK, status do build) e até um tutorial passo a passo de uso do programa.
-
-Quer que eu faça essa versão mais completa com badges e prints simulados?
