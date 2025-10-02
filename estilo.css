@@ -1,0 +1,30 @@
+* {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+}
+
+entry, combo-box, spinbutton, switch {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background: #007ACC;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+button:hover {
+  background: #005F9E;
+}
+
+label {
+  font-weight: bold;
+  color: #222;
+  font-size: 18px;
+}
+
+window {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,19 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "MSYS2-UCRT64": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "MSYS2-UCRT64",
+  "files.associations": {
+    "gtk.h": "c",
+    "string.h": "c",
+    "database.h": "c",
+    "stdlib.h": "c",
+    "validacao.h": "c",
+    "ctype.h": "c",
+    "interface.h": "c"
+  },
+  "makefile.configureOnOpen": false
+}
