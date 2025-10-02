@@ -16,7 +16,9 @@ SQL (persistência de dados)
 Makefile (automatização da compilação)
 
 
+
 📂 Estrutura do projeto
+
 gtk_workspace/
 
 ├── main.c               # Ponto de entrada do programa
@@ -32,6 +34,8 @@ gtk_workspace/
 ├── Makefile             # Script de build
 
 └── README.md            # Este arquivo
+
+
 
 ⚙️ Compilação e execução
 
@@ -65,10 +69,14 @@ Compile e execute:
 make
 ./rh_diac.exe
 
+
+
 🖼️ Interface
 
 O sistema utiliza GTK+ 3 para construir a interface gráfica.
 Os estilos estão definidos no arquivo estilo.css.
+
+
 
 📖 Makefile
 
@@ -79,6 +87,8 @@ make → compila o programa
 make run → executa o programa
 
 make clean → remove o executável gerado
+
+
 
 👨‍💻 Autor
 
